@@ -1,0 +1,49 @@
+@import 'scss/reset';
+@import '../assets/fonts/webfonts/stylesheet.css';
+
+@import 'scss/base';
+
+// css for the demo
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  padding: 0px;
+  background-image: url("img/bg_gradiant.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#container-progress {
+  position: fixed;
+  bottom: 0px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 250px;
+  width: 100%;
+}
+
+#progress-bar-left {
+  flex: auto;
+  height: 10px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+#progress-bar-center {
+  width: 3%;
+}
+
+#progress-bar-right {
+  flex: auto;
+  height: 10px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+
